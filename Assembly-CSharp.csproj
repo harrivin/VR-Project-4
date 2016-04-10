@@ -79,7 +79,9 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CharacterSpeakingController.cs" />
      <Compile Include="Assets\Scripts\DoorInteraction.cs" />
+     <Compile Include="Assets\Scripts\FaceFXControllerScript.cs" />
      <Compile Include="Assets\Scripts\Listener.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SkyboxController.cs" />
