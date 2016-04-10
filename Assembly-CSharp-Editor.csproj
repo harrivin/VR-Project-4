@@ -53,6 +53,7 @@
      <Compile Include="Assets\Cardboard\Editor\CardboardSetup.cs" />
      <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\Editor\FaceFXControllerScriptGUI.cs" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>/Users/harrivinnachiappan/Documents/VR Project 4/VR-Project-4/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
