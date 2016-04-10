@@ -1,0 +1,971 @@
+fileFormatVersion: 2
+guid: 6bf06098f55eb4477af9e9055c152751
+timeCreated: 1460289313
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000
+  assetHash:
+    serializedVersion: 2
+    Hash: 412f6eb89525d8ac0617474afc05d381
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 6.472263, y: 5.102851, z: -14.05295}
+      lookAt: {x: 6.472263, y: 5.102851, z: 12.311473}
+      up: {x: 0, y: 1, z: 0}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: '"The Wentworth Mount"- Traditional Two-Story Home by Garden Crescent'
+    100002: 11460
+    100004: 11460 1
+    100006: 11460 2
+    100008: 2238
+    100010: 2238 1
+    100012: 2238 2
+    100014: 24" Dishwasher (9-Program Stainless Steel)
+    100016: 24" Fresh Food Column (Freedom Professional Series)
+    100018: 24" Fresh Food Column (Freedom Professional Series) 1
+    100020: 30" Double Oven (Professional Series)
+    100022: 36_WallMount_KICU265H_3d.dwg
+    100024: 469-3s01
+    100026: 469-3s01 1
+    100028: 469-3s01 2
+    100030: 469-3s01 3
+    100032: 469-3s01 4
+    100034: Bayside Base Cabinet 3DB15- Three Drawer#1
+    100036: Bayside Base Cabinet 3DB15- Three Drawer#2
+    100038: Bayside Base Cabinet 3DB15- Three Drawer#2 1
+    100040: Bayside Base Cabinet 3DB15- Three Drawer#3
+    100042: Bayside Base Cabinet 3DB15- Three Drawer#4
+    100044: Bayside Base Cabinet 3DB15- Three Drawer#5
+    100046: BOSCH
+    100048: BOSCH 1
+    100050: Component#1
+    100052: Component#12
+    100054: Component#12 1
+    100056: Component#19
+    100058: Component#19 1
+    100060: Component#2
+    100062: Component#2 1
+    100064: Component#2 2
+    100066: Component#2 3
+    100068: Component#20
+    100070: Component#20 1
+    100072: Component#21
+    100074: Component#21 1
+    100076: Component#21 2
+    100078: Component#21 3
+    100080: Component#21 4
+    100082: Component#21 5
+    100084: Component#22
+    100086: Component#3
+    100088: Component#4
+    100090: Component#6
+    100092: Component#7
+    100094: Component#9
+    100096: Component#9 1
+    100098: Component#9 2
+    100100: Component#9 3
+    100102: Counter utility sink
+    100104: Counter utility sink 1
+    100106: DOOR 1
+    100108: DOOR 1 1
+    100110: DOOR 1 10
+    100112: DOOR 1 2
+    100114: DOOR 1 3
+    100116: DOOR 1 4
+    100118: DOOR 1 5
+    100120: DOOR 1 6
+    100122: DOOR 1 7
+    100124: DOOR 1 8
+    100126: DOOR 1 9
+    100128: DOOR 1 PAD 2
+    100130: DOOR 1 PAD 2 1
+    100132: DOOR 1 PAD 2 10
+    100134: DOOR 1 PAD 2 2
+    100136: DOOR 1 PAD 2 3
+    100138: DOOR 1 PAD 2 4
+    100140: DOOR 1 PAD 2 5
+    100142: DOOR 1 PAD 2 6
+    100144: DOOR 1 PAD 2 7
+    100146: DOOR 1 PAD 2 8
+    100148: DOOR 1 PAD 2 9
+    100150: DOOR 2 PAD 2
+    100152: DOOR 2 PAD 2 1
+    100154: DOOR 2 STILE BOTTOM
+    100156: DOOR 2 STILE BOTTOM 1
+    100158: DOOR 2 STILE LEFT
+    100160: DOOR 2 STILE LEFT 1
+    100162: DOOR 2 STILE RIGHT
+    100164: DOOR 2 STILE RIGHT 1
+    100166: DOOR 2 STILE TOP
+    100168: DOOR 2 STILE TOP 1
+    100170: Door Compartment
+    100172: Door Compartment 1
+    100174: Door Compartment 2
+    100176: Door Compartment 3
+    100178: Door Compartment 4
+    100180: Door Compartment 5
+    100182: Door Compartment 6
+    100184: Door Compartment 7
+    100186: Door handle
+    100188: Door handle 1
+    100190: Door handle 10
+    100192: Door handle 11
+    100194: Door handle 12
+    100196: Door handle 13
+    100198: Door handle 14
+    100200: Door handle 15
+    100202: Door handle 16
+    100204: Door handle 17
+    100206: Door handle 2
+    100208: Door handle 3
+    100210: Door handle 4
+    100212: Door handle 5
+    100214: Door handle 6
+    100216: Door handle 7
+    100218: Door handle 8
+    100220: Door handle 9
+    100222: DoorRH
+    100224: DoorRH 1
+    100226: DRAWER 1
+    100228: DRAWER 1 1
+    100230: DRAWER 1 2
+    100232: DRAWER 1 3
+    100234: DRAWER 1 4
+    100236: DRAWER 1 BOX FRONT
+    100238: DRAWER 1 BOX FRONT 1
+    100240: DRAWER 1 BOX FRONT 2
+    100242: DRAWER 1 BOX FRONT 3
+    100244: DRAWER 1 BOX FRONT 4
+    100246: DRAWER 1 PANEL
+    100248: DRAWER 1 PANEL 1
+    100250: DRAWER 1 PANEL 2
+    100252: DRAWER 1 PANEL 3
+    100254: DRAWER 1 PANEL 4
+    100256: DRAWER 3 PANEL
+    100258: DRAWER 3 PANEL 1
+    100260: DRAWER 3 PANEL 2
+    100262: DRAWER 3 PANEL 3
+    100264: DRAWER 3 PANEL 4
+    100266: DRAWER 3 PANEL 5
+    100268: DRAWER 3 PANEL 6
+    100270: DRAWER 4 PANEL
+    100272: DRAWER 4 PANEL 1
+    100274: DRAWER 4 PANEL 2
+    100276: DRAWER 4 PANEL 3
+    100278: DRAWER 4 PANEL 4
+    100280: DRAWER 4 PANEL 5
+    100282: DRAWER 4 PANEL 6
+    100284: Eclectic House
+    100286: Eclectic House_MeshPart0
+    100288: Eclectic House_MeshPart1
+    100290: Fridge
+    100292: Fridge 1
+    100294: Group 10
+    100296: Group 11
+    100298: Group 111
+    100300: Group 17
+    100302: Group 18
+    100304: Group 20
+    100306: Group 212
+    100308: Group 283
+    100310: Group 285
+    100312: Group 287
+    100314: Group 289
+    100316: Group 291
+    100318: Group 293
+    100320: Group 295
+    100322: Group 297
+    100324: Group 319
+    100326: Group 349
+    100328: Group 350
+    100330: Group 382
+    100332: Group 4
+    100334: Group 42
+    100336: Group 58
+    100338: Group 6
+    100340: Group 60
+    100342: Group 68
+    100344: Group 70
+    100346: Group 8
+    100348: Group 81
+    100350: Group#1
+    100352: Group#2
+    100354: Group#3
+    100356: half
+    100358: half 1
+    100360: half 2
+    100362: half 3
+    100364: Handle
+    100366: Handle 1
+    100368: Image 211
+    100370: K-510 Dynametric 5' Bath
+    100372: K-520 Dynametric(R) 5' Bath
+    100374: KitchenAid 36" Wall Canopy Hood
+    100376: Lava e seca
+    100378: Lava e seca 1
+    100380: lava_e_seca_bosch
+    100382: lava_e_seca_bosch 1
+    100384: Layer:0
+    100386: Layer:0 1
+    100388: Layer:0 2
+    100390: Mesh01
+    100392: Mesh01 1
+    100394: Mesh01 2
+    100396: Modern water faucet set
+    100398: Modern water faucet set 1
+    100400: 'object #2'
+    100402: 'object #2 1'
+    100404: 'object #2 2'
+    100406: 'object #2 3'
+    100408: 'object #2 4'
+    100410: 'object #2 5'
+    100412: 'object #3'
+    100414: 'object #3 1'
+    100416: 'object #3 2'
+    100418: PCG364GD-1
+    100420: PCG364GD.DWG
+    100422: RK-DRAIN
+    100424: Showerhead and knob
+    100426: skp3D
+    100428: skp3D 1
+    100430: skp3D 2
+    100432: skp59
+    100434: skp59 1
+    100436: skp59 2
+    100438: t469_3s
+    100440: t469_3s 1
+    100442: t469_3s 2
+    100444: t469_3s 3
+    100446: t469_3s 4
+    100448: Thermador 36" Gas Rangetop
+    100450: //RootNode
+    400000: '"The Wentworth Mount"- Traditional Two-Story Home by Garden Crescent'
+    400002: 11460
+    400004: 11460 1
+    400006: 11460 2
+    400008: 2238
+    400010: 2238 1
+    400012: 2238 2
+    400014: 24" Dishwasher (9-Program Stainless Steel)
+    400016: 24" Fresh Food Column (Freedom Professional Series)
+    400018: 24" Fresh Food Column (Freedom Professional Series) 1
+    400020: 30" Double Oven (Professional Series)
+    400022: 36_WallMount_KICU265H_3d.dwg
+    400024: 469-3s01
+    400026: 469-3s01 1
+    400028: 469-3s01 2
+    400030: 469-3s01 3
+    400032: 469-3s01 4
+    400034: Bayside Base Cabinet 3DB15- Three Drawer#1
+    400036: Bayside Base Cabinet 3DB15- Three Drawer#2
+    400038: Bayside Base Cabinet 3DB15- Three Drawer#2 1
+    400040: Bayside Base Cabinet 3DB15- Three Drawer#3
+    400042: Bayside Base Cabinet 3DB15- Three Drawer#4
+    400044: Bayside Base Cabinet 3DB15- Three Drawer#5
+    400046: BOSCH
+    400048: BOSCH 1
+    400050: Component#1
+    400052: Component#12
+    400054: Component#12 1
+    400056: Component#19
+    400058: Component#19 1
+    400060: Component#2
+    400062: Component#2 1
+    400064: Component#2 2
+    400066: Component#2 3
+    400068: Component#20
+    400070: Component#20 1
+    400072: Component#21
+    400074: Component#21 1
+    400076: Component#21 2
+    400078: Component#21 3
+    400080: Component#21 4
+    400082: Component#21 5
+    400084: Component#22
+    400086: Component#3
+    400088: Component#4
+    400090: Component#6
+    400092: Component#7
+    400094: Component#9
+    400096: Component#9 1
+    400098: Component#9 2
+    400100: Component#9 3
+    400102: Counter utility sink
+    400104: Counter utility sink 1
+    400106: DOOR 1
+    400108: DOOR 1 1
+    400110: DOOR 1 10
+    400112: DOOR 1 2
+    400114: DOOR 1 3
+    400116: DOOR 1 4
+    400118: DOOR 1 5
+    400120: DOOR 1 6
+    400122: DOOR 1 7
+    400124: DOOR 1 8
+    400126: DOOR 1 9
+    400128: DOOR 1 PAD 2
+    400130: DOOR 1 PAD 2 1
+    400132: DOOR 1 PAD 2 10
+    400134: DOOR 1 PAD 2 2
+    400136: DOOR 1 PAD 2 3
+    400138: DOOR 1 PAD 2 4
+    400140: DOOR 1 PAD 2 5
+    400142: DOOR 1 PAD 2 6
+    400144: DOOR 1 PAD 2 7
+    400146: DOOR 1 PAD 2 8
+    400148: DOOR 1 PAD 2 9
+    400150: DOOR 2 PAD 2
+    400152: DOOR 2 PAD 2 1
+    400154: DOOR 2 STILE BOTTOM
+    400156: DOOR 2 STILE BOTTOM 1
+    400158: DOOR 2 STILE LEFT
+    400160: DOOR 2 STILE LEFT 1
+    400162: DOOR 2 STILE RIGHT
+    400164: DOOR 2 STILE RIGHT 1
+    400166: DOOR 2 STILE TOP
+    400168: DOOR 2 STILE TOP 1
+    400170: Door Compartment
+    400172: Door Compartment 1
+    400174: Door Compartment 2
+    400176: Door Compartment 3
+    400178: Door Compartment 4
+    400180: Door Compartment 5
+    400182: Door Compartment 6
+    400184: Door Compartment 7
+    400186: Door handle
+    400188: Door handle 1
+    400190: Door handle 10
+    400192: Door handle 11
+    400194: Door handle 12
+    400196: Door handle 13
+    400198: Door handle 14
+    400200: Door handle 15
+    400202: Door handle 16
+    400204: Door handle 17
+    400206: Door handle 2
+    400208: Door handle 3
+    400210: Door handle 4
+    400212: Door handle 5
+    400214: Door handle 6
+    400216: Door handle 7
+    400218: Door handle 8
+    400220: Door handle 9
+    400222: DoorRH
+    400224: DoorRH 1
+    400226: DRAWER 1
+    400228: DRAWER 1 1
+    400230: DRAWER 1 2
+    400232: DRAWER 1 3
+    400234: DRAWER 1 4
+    400236: DRAWER 1 BOX FRONT
+    400238: DRAWER 1 BOX FRONT 1
+    400240: DRAWER 1 BOX FRONT 2
+    400242: DRAWER 1 BOX FRONT 3
+    400244: DRAWER 1 BOX FRONT 4
+    400246: DRAWER 1 PANEL
+    400248: DRAWER 1 PANEL 1
+    400250: DRAWER 1 PANEL 2
+    400252: DRAWER 1 PANEL 3
+    400254: DRAWER 1 PANEL 4
+    400256: DRAWER 3 PANEL
+    400258: DRAWER 3 PANEL 1
+    400260: DRAWER 3 PANEL 2
+    400262: DRAWER 3 PANEL 3
+    400264: DRAWER 3 PANEL 4
+    400266: DRAWER 3 PANEL 5
+    400268: DRAWER 3 PANEL 6
+    400270: DRAWER 4 PANEL
+    400272: DRAWER 4 PANEL 1
+    400274: DRAWER 4 PANEL 2
+    400276: DRAWER 4 PANEL 3
+    400278: DRAWER 4 PANEL 4
+    400280: DRAWER 4 PANEL 5
+    400282: DRAWER 4 PANEL 6
+    400284: Eclectic House
+    400286: Eclectic House_MeshPart0
+    400288: Eclectic House_MeshPart1
+    400290: Fridge
+    400292: Fridge 1
+    400294: Group 10
+    400296: Group 11
+    400298: Group 111
+    400300: Group 17
+    400302: Group 18
+    400304: Group 20
+    400306: Group 212
+    400308: Group 283
+    400310: Group 285
+    400312: Group 287
+    400314: Group 289
+    400316: Group 291
+    400318: Group 293
+    400320: Group 295
+    400322: Group 297
+    400324: Group 319
+    400326: Group 349
+    400328: Group 350
+    400330: Group 382
+    400332: Group 4
+    400334: Group 42
+    400336: Group 58
+    400338: Group 6
+    400340: Group 60
+    400342: Group 68
+    400344: Group 70
+    400346: Group 8
+    400348: Group 81
+    400350: Group#1
+    400352: Group#2
+    400354: Group#3
+    400356: half
+    400358: half 1
+    400360: half 2
+    400362: half 3
+    400364: Handle
+    400366: Handle 1
+    400368: Image 211
+    400370: K-510 Dynametric 5' Bath
+    400372: K-520 Dynametric(R) 5' Bath
+    400374: KitchenAid 36" Wall Canopy Hood
+    400376: Lava e seca
+    400378: Lava e seca 1
+    400380: lava_e_seca_bosch
+    400382: lava_e_seca_bosch 1
+    400384: Layer:0
+    400386: Layer:0 1
+    400388: Layer:0 2
+    400390: Mesh01
+    400392: Mesh01 1
+    400394: Mesh01 2
+    400396: Modern water faucet set
+    400398: Modern water faucet set 1
+    400400: 'object #2'
+    400402: 'object #2 1'
+    400404: 'object #2 2'
+    400406: 'object #2 3'
+    400408: 'object #2 4'
+    400410: 'object #2 5'
+    400412: 'object #3'
+    400414: 'object #3 1'
+    400416: 'object #3 2'
+    400418: PCG364GD-1
+    400420: PCG364GD.DWG
+    400422: RK-DRAIN
+    400424: Showerhead and knob
+    400426: skp3D
+    400428: skp3D 1
+    400430: skp3D 2
+    400432: skp59
+    400434: skp59 1
+    400436: skp59 2
+    400438: t469_3s
+    400440: t469_3s 1
+    400442: t469_3s 2
+    400444: t469_3s 3
+    400446: t469_3s 4
+    400448: Thermador 36" Gas Rangetop
+    400450: //RootNode
+    2300000: 2238
+    2300002: 2238 1
+    2300004: 2238 2
+    2300006: 24" Fresh Food Column (Freedom Professional Series)
+    2300008: 24" Fresh Food Column (Freedom Professional Series) 1
+    2300010: 469-3s01
+    2300012: 469-3s01 1
+    2300014: 469-3s01 2
+    2300016: 469-3s01 3
+    2300018: 469-3s01 4
+    2300020: Bayside Base Cabinet 3DB15- Three Drawer#1
+    2300022: Bayside Base Cabinet 3DB15- Three Drawer#2
+    2300024: Bayside Base Cabinet 3DB15- Three Drawer#2 1
+    2300026: Bayside Base Cabinet 3DB15- Three Drawer#3
+    2300028: Bayside Base Cabinet 3DB15- Three Drawer#4
+    2300030: Bayside Base Cabinet 3DB15- Three Drawer#5
+    2300032: BOSCH
+    2300034: BOSCH 1
+    2300036: Component#1
+    2300038: Component#12
+    2300040: Component#12 1
+    2300042: Component#19
+    2300044: Component#19 1
+    2300046: Component#2
+    2300048: Component#2 1
+    2300050: Component#2 2
+    2300052: Component#2 3
+    2300054: Component#20
+    2300056: Component#20 1
+    2300058: Component#21
+    2300060: Component#21 1
+    2300062: Component#21 2
+    2300064: Component#21 3
+    2300066: Component#21 4
+    2300068: Component#21 5
+    2300070: Component#22
+    2300072: Component#4
+    2300074: Component#6
+    2300076: Component#7
+    2300078: Component#9
+    2300080: Component#9 1
+    2300082: Component#9 2
+    2300084: Component#9 3
+    2300086: Counter utility sink
+    2300088: Counter utility sink 1
+    2300090: DOOR 1
+    2300092: DOOR 1 1
+    2300094: DOOR 1 10
+    2300096: DOOR 1 2
+    2300098: DOOR 1 3
+    2300100: DOOR 1 4
+    2300102: DOOR 1 5
+    2300104: DOOR 1 6
+    2300106: DOOR 1 7
+    2300108: DOOR 1 8
+    2300110: DOOR 1 9
+    2300112: DOOR 1 PAD 2
+    2300114: DOOR 1 PAD 2 1
+    2300116: DOOR 1 PAD 2 10
+    2300118: DOOR 1 PAD 2 2
+    2300120: DOOR 1 PAD 2 3
+    2300122: DOOR 1 PAD 2 4
+    2300124: DOOR 1 PAD 2 5
+    2300126: DOOR 1 PAD 2 6
+    2300128: DOOR 1 PAD 2 7
+    2300130: DOOR 1 PAD 2 8
+    2300132: DOOR 1 PAD 2 9
+    2300134: DOOR 2 PAD 2
+    2300136: DOOR 2 PAD 2 1
+    2300138: DOOR 2 STILE BOTTOM
+    2300140: DOOR 2 STILE BOTTOM 1
+    2300142: DOOR 2 STILE LEFT
+    2300144: DOOR 2 STILE LEFT 1
+    2300146: DOOR 2 STILE RIGHT
+    2300148: DOOR 2 STILE RIGHT 1
+    2300150: DOOR 2 STILE TOP
+    2300152: DOOR 2 STILE TOP 1
+    2300154: Door Compartment
+    2300156: Door Compartment 1
+    2300158: Door Compartment 2
+    2300160: Door Compartment 3
+    2300162: Door Compartment 4
+    2300164: Door Compartment 5
+    2300166: Door Compartment 6
+    2300168: Door Compartment 7
+    2300170: Door handle
+    2300172: Door handle 1
+    2300174: Door handle 10
+    2300176: Door handle 11
+    2300178: Door handle 12
+    2300180: Door handle 13
+    2300182: Door handle 14
+    2300184: Door handle 15
+    2300186: Door handle 16
+    2300188: Door handle 17
+    2300190: Door handle 2
+    2300192: Door handle 3
+    2300194: Door handle 4
+    2300196: Door handle 5
+    2300198: Door handle 6
+    2300200: Door handle 7
+    2300202: Door handle 8
+    2300204: Door handle 9
+    2300206: DRAWER 1 BOX FRONT
+    2300208: DRAWER 1 BOX FRONT 1
+    2300210: DRAWER 1 BOX FRONT 2
+    2300212: DRAWER 1 BOX FRONT 3
+    2300214: DRAWER 1 BOX FRONT 4
+    2300216: DRAWER 1 PANEL
+    2300218: DRAWER 1 PANEL 1
+    2300220: DRAWER 1 PANEL 2
+    2300222: DRAWER 1 PANEL 3
+    2300224: DRAWER 1 PANEL 4
+    2300226: DRAWER 3 PANEL
+    2300228: DRAWER 3 PANEL 1
+    2300230: DRAWER 3 PANEL 2
+    2300232: DRAWER 3 PANEL 3
+    2300234: DRAWER 3 PANEL 4
+    2300236: DRAWER 3 PANEL 5
+    2300238: DRAWER 3 PANEL 6
+    2300240: DRAWER 4 PANEL
+    2300242: DRAWER 4 PANEL 1
+    2300244: DRAWER 4 PANEL 2
+    2300246: DRAWER 4 PANEL 3
+    2300248: DRAWER 4 PANEL 4
+    2300250: DRAWER 4 PANEL 5
+    2300252: DRAWER 4 PANEL 6
+    2300254: Eclectic House_MeshPart0
+    2300256: Eclectic House_MeshPart1
+    2300258: Fridge
+    2300260: Fridge 1
+    2300262: Group 11
+    2300264: Group 111
+    2300266: Group 18
+    2300268: Group 20
+    2300270: Group 212
+    2300272: Group 283
+    2300274: Group 285
+    2300276: Group 287
+    2300278: Group 289
+    2300280: Group 291
+    2300282: Group 293
+    2300284: Group 295
+    2300286: Group 297
+    2300288: Group 350
+    2300290: Group 382
+    2300292: Group 4
+    2300294: Group 42
+    2300296: Group 58
+    2300298: Group 6
+    2300300: Group 60
+    2300302: Group 68
+    2300304: Group 70
+    2300306: Group 8
+    2300308: Group 81
+    2300310: Group#1
+    2300312: Group#2
+    2300314: Group#3
+    2300316: half
+    2300318: half 1
+    2300320: half 2
+    2300322: half 3
+    2300324: Handle
+    2300326: Handle 1
+    2300328: Image 211
+    2300330: K-510 Dynametric 5' Bath
+    2300332: lava_e_seca_bosch
+    2300334: lava_e_seca_bosch 1
+    2300336: Modern water faucet set
+    2300338: Modern water faucet set 1
+    2300340: 'object #2 1'
+    2300342: 'object #2 3'
+    2300344: 'object #2 4'
+    2300346: 'object #3'
+    2300348: 'object #3 1'
+    2300350: 'object #3 2'
+    2300352: PCG364GD-1
+    2300354: RK-DRAIN
+    3300000: 2238
+    3300002: 2238 1
+    3300004: 2238 2
+    3300006: 24" Fresh Food Column (Freedom Professional Series)
+    3300008: 24" Fresh Food Column (Freedom Professional Series) 1
+    3300010: 469-3s01
+    3300012: 469-3s01 1
+    3300014: 469-3s01 2
+    3300016: 469-3s01 3
+    3300018: 469-3s01 4
+    3300020: Bayside Base Cabinet 3DB15- Three Drawer#1
+    3300022: Bayside Base Cabinet 3DB15- Three Drawer#2
+    3300024: Bayside Base Cabinet 3DB15- Three Drawer#2 1
+    3300026: Bayside Base Cabinet 3DB15- Three Drawer#3
+    3300028: Bayside Base Cabinet 3DB15- Three Drawer#4
+    3300030: Bayside Base Cabinet 3DB15- Three Drawer#5
+    3300032: BOSCH
+    3300034: BOSCH 1
+    3300036: Component#1
+    3300038: Component#12
+    3300040: Component#12 1
+    3300042: Component#19
+    3300044: Component#19 1
+    3300046: Component#2
+    3300048: Component#2 1
+    3300050: Component#2 2
+    3300052: Component#2 3
+    3300054: Component#20
+    3300056: Component#20 1
+    3300058: Component#21
+    3300060: Component#21 1
+    3300062: Component#21 2
+    3300064: Component#21 3
+    3300066: Component#21 4
+    3300068: Component#21 5
+    3300070: Component#22
+    3300072: Component#4
+    3300074: Component#6
+    3300076: Component#7
+    3300078: Component#9
+    3300080: Component#9 1
+    3300082: Component#9 2
+    3300084: Component#9 3
+    3300086: Counter utility sink
+    3300088: Counter utility sink 1
+    3300090: DOOR 1
+    3300092: DOOR 1 1
+    3300094: DOOR 1 10
+    3300096: DOOR 1 2
+    3300098: DOOR 1 3
+    3300100: DOOR 1 4
+    3300102: DOOR 1 5
+    3300104: DOOR 1 6
+    3300106: DOOR 1 7
+    3300108: DOOR 1 8
+    3300110: DOOR 1 9
+    3300112: DOOR 1 PAD 2
+    3300114: DOOR 1 PAD 2 1
+    3300116: DOOR 1 PAD 2 10
+    3300118: DOOR 1 PAD 2 2
+    3300120: DOOR 1 PAD 2 3
+    3300122: DOOR 1 PAD 2 4
+    3300124: DOOR 1 PAD 2 5
+    3300126: DOOR 1 PAD 2 6
+    3300128: DOOR 1 PAD 2 7
+    3300130: DOOR 1 PAD 2 8
+    3300132: DOOR 1 PAD 2 9
+    3300134: DOOR 2 PAD 2
+    3300136: DOOR 2 PAD 2 1
+    3300138: DOOR 2 STILE BOTTOM
+    3300140: DOOR 2 STILE BOTTOM 1
+    3300142: DOOR 2 STILE LEFT
+    3300144: DOOR 2 STILE LEFT 1
+    3300146: DOOR 2 STILE RIGHT
+    3300148: DOOR 2 STILE RIGHT 1
+    3300150: DOOR 2 STILE TOP
+    3300152: DOOR 2 STILE TOP 1
+    3300154: Door Compartment
+    3300156: Door Compartment 1
+    3300158: Door Compartment 2
+    3300160: Door Compartment 3
+    3300162: Door Compartment 4
+    3300164: Door Compartment 5
+    3300166: Door Compartment 6
+    3300168: Door Compartment 7
+    3300170: Door handle
+    3300172: Door handle 1
+    3300174: Door handle 10
+    3300176: Door handle 11
+    3300178: Door handle 12
+    3300180: Door handle 13
+    3300182: Door handle 14
+    3300184: Door handle 15
+    3300186: Door handle 16
+    3300188: Door handle 17
+    3300190: Door handle 2
+    3300192: Door handle 3
+    3300194: Door handle 4
+    3300196: Door handle 5
+    3300198: Door handle 6
+    3300200: Door handle 7
+    3300202: Door handle 8
+    3300204: Door handle 9
+    3300206: DRAWER 1 BOX FRONT
+    3300208: DRAWER 1 BOX FRONT 1
+    3300210: DRAWER 1 BOX FRONT 2
+    3300212: DRAWER 1 BOX FRONT 3
+    3300214: DRAWER 1 BOX FRONT 4
+    3300216: DRAWER 1 PANEL
+    3300218: DRAWER 1 PANEL 1
+    3300220: DRAWER 1 PANEL 2
+    3300222: DRAWER 1 PANEL 3
+    3300224: DRAWER 1 PANEL 4
+    3300226: DRAWER 3 PANEL
+    3300228: DRAWER 3 PANEL 1
+    3300230: DRAWER 3 PANEL 2
+    3300232: DRAWER 3 PANEL 3
+    3300234: DRAWER 3 PANEL 4
+    3300236: DRAWER 3 PANEL 5
+    3300238: DRAWER 3 PANEL 6
+    3300240: DRAWER 4 PANEL
+    3300242: DRAWER 4 PANEL 1
+    3300244: DRAWER 4 PANEL 2
+    3300246: DRAWER 4 PANEL 3
+    3300248: DRAWER 4 PANEL 4
+    3300250: DRAWER 4 PANEL 5
+    3300252: DRAWER 4 PANEL 6
+    3300254: Eclectic House_MeshPart0
+    3300256: Eclectic House_MeshPart1
+    3300258: Fridge
+    3300260: Fridge 1
+    3300262: Group 11
+    3300264: Group 111
+    3300266: Group 18
+    3300268: Group 20
+    3300270: Group 212
+    3300272: Group 283
+    3300274: Group 285
+    3300276: Group 287
+    3300278: Group 289
+    3300280: Group 291
+    3300282: Group 293
+    3300284: Group 295
+    3300286: Group 297
+    3300288: Group 350
+    3300290: Group 382
+    3300292: Group 4
+    3300294: Group 42
+    3300296: Group 58
+    3300298: Group 6
+    3300300: Group 60
+    3300302: Group 68
+    3300304: Group 70
+    3300306: Group 8
+    3300308: Group 81
+    3300310: Group#1
+    3300312: Group#2
+    3300314: Group#3
+    3300316: half
+    3300318: half 1
+    3300320: half 2
+    3300322: half 3
+    3300324: Handle
+    3300326: Handle 1
+    3300328: Image 211
+    3300330: K-510 Dynametric 5' Bath
+    3300332: lava_e_seca_bosch
+    3300334: lava_e_seca_bosch 1
+    3300336: Modern water faucet set
+    3300338: Modern water faucet set 1
+    3300340: 'object #2 1'
+    3300342: 'object #2 3'
+    3300344: 'object #2 4'
+    3300346: 'object #3'
+    3300348: 'object #3 1'
+    3300350: 'object #3 2'
+    3300352: PCG364GD-1
+    3300354: RK-DRAIN
+    4300000: Mesh Eclectic House_MeshPart0
+    4300002: Mesh Eclectic House_MeshPart1
+    4300004: Mesh Group 4
+    4300006: Mesh Group 11
+    4300008: Mesh DRAWER 4 PANEL
+    4300010: Mesh Group 18
+    4300012: Mesh Group 20
+    4300014: Mesh DOOR 2 PAD 2
+    4300016: Mesh DOOR 2 STILE TOP
+    4300018: Mesh DOOR 2 STILE RIGHT
+    4300020: Mesh DOOR 2 STILE LEFT
+    4300022: Mesh DOOR 2 STILE BOTTOM
+    4300024: Mesh Group 42
+    4300026: Mesh Component#2
+    4300028: Mesh Component#1
+    4300030: Mesh Component#7
+    4300032: Mesh Group 58
+    4300034: Mesh Group 60
+    4300036: Mesh Modern water faucet set
+    4300038: Mesh half
+    4300040: Mesh Group 68
+    4300042: Mesh Group 70
+    4300044: Mesh 24" Fresh Food Column (Freedom Professional Series)
+    4300046: Mesh Group 81
+    4300048: Mesh Handle
+    4300050: Mesh Door Compartment
+    4300052: Mesh Fridge
+    4300054: Mesh PCG364GD-1
+    4300056: Mesh Bayside Base Cabinet 3DB15- Three Drawer#3
+    4300058: Mesh DRAWER 3 PANEL
+    4300060: Mesh DOOR 1
+    4300062: Mesh DOOR 1 PAD 2
+    4300064: Mesh Bayside Base Cabinet 3DB15- Three Drawer#2
+    4300066: Mesh DRAWER 4 PANEL
+    4300068: Mesh DRAWER 3 PANEL
+    4300070: Mesh DRAWER 1 BOX FRONT
+    4300072: Mesh DRAWER 1 PANEL
+    4300074: Mesh Bayside Base Cabinet 3DB15- Three Drawer#4
+    4300076: Mesh Bayside Base Cabinet 3DB15- Three Drawer#1
+    4300078: Mesh DOOR 1
+    4300080: Mesh Component#22
+    4300082: Mesh Component#22
+    4300084: Mesh Group 212
+    4300086: Mesh Component#9
+    4300088: Mesh Component#21
+    4300090: Mesh Component#12
+    4300092: Mesh Component#20
+    4300094: Mesh Component#19
+    4300096: Mesh DOOR 1
+    4300098: Mesh DOOR 1
+    4300100: Mesh Bayside Base Cabinet 3DB15- Three Drawer#5
+    4300102: Mesh DOOR 1
+    4300104: Mesh Group 283
+    4300106: Mesh Group 291
+    4300108: Mesh lava_e_seca_bosch
+    4300110: Mesh BOSCH
+    4300112: Mesh Group#1
+    4300114: Mesh Group#2
+    4300116: Mesh Group#3
+    4300118: Mesh 2238
+    4300120: 'Mesh object #2'
+    4300122: Mesh 469-3s01
+    4300124: 'Mesh object #3'
+    4300126: Mesh K-510 Dynametric 5' Bath
+    4300128: Mesh RK-DRAIN
+    4300130: Mesh Group 350
+    4300132: Mesh Door handle
+    4300134: Mesh Counter utility sink
+    4300136: Mesh Group 382
+    4300138: Mesh Component#6
+    4300140: Mesh Component#4
+    4300142: Mesh Door handle
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
