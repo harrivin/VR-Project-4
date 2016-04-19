@@ -330,6 +330,7 @@ ModelImporter:
     4300012: H_DDS_CrowdRes
     4300014: c_TeethDown
     9500000: //RootNode
+    11100000: //RootNode
     13700000: c_L_eye
     13700002: c_L_gland
     13700004: c_R_eye
@@ -362,7 +363,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 10
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -396,7 +397,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
