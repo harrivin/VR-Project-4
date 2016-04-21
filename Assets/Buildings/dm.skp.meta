@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 8ef1582bde1e64a808c0218d03c98b53
+timeCreated: 1460659158
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f00000030000000310000003200000033000000340000003500000036000000
+  assetHash:
+    serializedVersion: 2
+    Hash: a6876bbc86a0999edca2021836de48de
+  longitude: 55.2789493305254
+  latitude: 25.197159318218482
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 164.91791, y: 98.921455, z: 892.1249}
+      lookAt: {x: 18.928144, y: 112.221405, z: -143.69255}
+      up: {x: 0.0017743052, y: 0.9999192, z: 0.012588939}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: A
+    100002: A#1
+    100004: B
+    100006: Burj Dubai and Dubai Mall
+    100008: D
+    100010: //RootNode
+    100012: DUBAI  MALL
+    100014: E
+    100016: Google Earth Snapshot
+    100018: Group 43
+    100020: Group 45
+    100022: Group 47
+    100024: H
+    100026: I
+    100028: L
+    100030: L#1
+    100032: LL
+    100034: lll
+    100036: M
+    100038: Rotating Door
+    100040: Rotating Door 1
+    100042: Rotating Door 2
+    100044: Rotating Door 3
+    100046: Sang
+    100048: Sang 1
+    100050: T
+    100052: the#1
+    100054: U
+    400000: A
+    400002: A#1
+    400004: B
+    400006: Burj Dubai and Dubai Mall
+    400008: D
+    400010: //RootNode
+    400012: DUBAI  MALL
+    400014: E
+    400016: Google Earth Snapshot
+    400018: Group 43
+    400020: Group 45
+    400022: Group 47
+    400024: H
+    400026: I
+    400028: L
+    400030: L#1
+    400032: LL
+    400034: lll
+    400036: M
+    400038: Rotating Door
+    400040: Rotating Door 1
+    400042: Rotating Door 2
+    400044: Rotating Door 3
+    400046: Sang
+    400048: Sang 1
+    400050: T
+    400052: the#1
+    400054: U
+    2300000: A
+    2300002: A#1
+    2300004: B
+    2300006: D
+    2300008: DUBAI  MALL
+    2300010: E
+    2300012: Google Earth Snapshot
+    2300014: Group 43
+    2300016: Group 45
+    2300018: Group 47
+    2300020: H
+    2300022: I
+    2300024: L
+    2300026: L#1
+    2300028: lll
+    2300030: M
+    2300032: Rotating Door
+    2300034: Rotating Door 1
+    2300036: Rotating Door 2
+    2300038: Rotating Door 3
+    2300040: Sang
+    2300042: Sang 1
+    2300044: T
+    2300046: the#1
+    2300048: U
+    3300000: A
+    3300002: A#1
+    3300004: B
+    3300006: D
+    3300008: DUBAI  MALL
+    3300010: E
+    3300012: Google Earth Snapshot
+    3300014: Group 43
+    3300016: Group 45
+    3300018: Group 47
+    3300020: H
+    3300022: I
+    3300024: L
+    3300026: L#1
+    3300028: lll
+    3300030: M
+    3300032: Rotating Door
+    3300034: Rotating Door 1
+    3300036: Rotating Door 2
+    3300038: Rotating Door 3
+    3300040: Sang
+    3300042: Sang 1
+    3300044: T
+    3300046: the#1
+    3300048: U
+    4300000: Mesh Google Earth Snapshot
+    4300002: Mesh Sang
+    4300004: Mesh lll
+    4300006: Mesh Rotating Door
+    4300008: Mesh the#1
+    4300010: Mesh DUBAI  MALL
+    4300012: Mesh T
+    4300014: Mesh H
+    4300016: Mesh E
+    4300018: Mesh D
+    4300020: Mesh U
+    4300022: Mesh B
+    4300024: Mesh A
+    4300026: Mesh I
+    4300028: Mesh M
+    4300030: Mesh A#1
+    4300032: Mesh L
+    4300034: Mesh L#1
+    4300036: Mesh Group 43
+    4300038: Mesh Group 45
+    4300040: Mesh Group 47
+    4300042: Mesh Rotating Door
+    4300044: Mesh Rotating Door
+    4300046: Mesh Rotating Door
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

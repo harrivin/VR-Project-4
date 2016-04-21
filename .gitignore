@@ -32,4 +32,18 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 [Tt]humbs.db
+<<<<<<< Updated upstream
 Library/metadata/05/05c5a7cf1f7ca4a0db9fef203f559380
+=======
+*.csproj
+
+*.csproj
+
+*.csproj
+
+Assembly-CSharp-firstpass.csproj
+
+Assembly-CSharp.csproj
+
+Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+>>>>>>> Stashed changes
