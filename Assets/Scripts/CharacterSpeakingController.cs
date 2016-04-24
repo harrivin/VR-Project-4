@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class CharacterSpeakingController : MonoBehaviour {
 
@@ -43,7 +44,7 @@ public class CharacterSpeakingController : MonoBehaviour {
 		jayAudioSource = jay.GetComponent<AudioSource> ();
 		setActualAnimations ();
 
-		Invoke ("playAnimation", 2);
+		//Invoke ("playAnimation", 2);
 
 		currentVH = sarah;
 
@@ -92,7 +93,10 @@ public class CharacterSpeakingController : MonoBehaviour {
 		moveSarahHead ();
 		moveJayHead ();
 
-		
+		if (decisionMade) {
+			StopCoroutine ("askForDecision");
+			StartCoroutine ("loadNextScene");
+		}
 
 	}
 
@@ -106,6 +110,7 @@ public class CharacterSpeakingController : MonoBehaviour {
 			yield return new WaitForSeconds (2f);
 			sarahLookTarget = "jay";
 			jayLookTarget = "sarah";
+			decisionMade = true;
 		} else if (Input.GetButton ("Fire2")) {
 			jayAudioSource.clip = jayChoice;
 			jayAudioSource.Play ();
@@ -115,6 +120,18 @@ public class CharacterSpeakingController : MonoBehaviour {
 			yield return new WaitForSeconds (1.5f);
 			jayLookTarget = "sarah";
 			sarahLookTarget = "jay";
+			decisionMade = true;
+		}
+	}
+
+	IEnumerator loadNextScene(){
+		if (DecisionManager.chooseHome) {
+			Debug.Log ("moving to next house scene");
+			yield return new WaitForSeconds (10f);
+			SceneManager.LoadScene ("stevieHouse2");
+		} else {
+			yield return new WaitForSeconds (6f);
+			SceneManager.LoadScene ("stevieBuildings");
 		}
 	}
 

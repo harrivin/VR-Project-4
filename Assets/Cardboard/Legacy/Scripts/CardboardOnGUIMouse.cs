@@ -86,7 +86,7 @@ public class CardboardOnGUIMouse : MonoBehaviour {
     // Move the mouse/touch point to the determined screen point.
     // Unity GUI Y-coordinates ascend top-to-bottom, as do the quad's texture coordinates,
     // while screen Y-coordinates ascend bottom-to-top.
-    Cardboard.SDK.SetTouchCoordinates(pointerX, Screen.height - pointerY);
+    //Cardboard.SDK.SetTouchCoordinates(pointerX, Screen.height - pointerY);
     // OK to draw the pointer image.
     pointerVisible = true;
   }
