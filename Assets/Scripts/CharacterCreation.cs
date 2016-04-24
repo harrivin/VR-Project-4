@@ -35,6 +35,11 @@ public class CharacterCreation : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+		if (Input.GetKeyDown (KeyCode.M))
+			Select (1);
+		if (Input.GetKeyDown (KeyCode.F))
+			Select (0);
+			
 		if (Input.GetMouseButton (0))
 			transform.Rotate (new Vector3 (0.0f, Input.GetAxis ("Mouse X"), 0.0f));
 	}
