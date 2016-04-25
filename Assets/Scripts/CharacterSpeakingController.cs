@@ -29,6 +29,7 @@ public class CharacterSpeakingController : MonoBehaviour {
 	int jayIndex = 0;
 
 	public AnimationClip[] talkingAnimations;
+	public AnimationClip[] idleAnimations;
 
 	string sarahLookTarget = "";
 	string jayLookTarget = "";
@@ -178,8 +179,9 @@ public class CharacterSpeakingController : MonoBehaviour {
 
 	IEnumerator playSpeech(){
 		float rand = Random.value;
+		int rand2;
 		if (!atDecisionPoint & !decisionMade) {
-			Debug.Log ("playing speech of " + currentVH.name);
+			//Debug.Log ("playing speech of " + currentVH.name);
 			if (currentVH.name == "sarah" && sarahIndex < sarahSpeeches.Length) {
 				sarahAudioSource.clip = sarahSpeeches [sarahIndex];
 				sarahAudioSource.Play ();
@@ -192,6 +194,20 @@ public class CharacterSpeakingController : MonoBehaviour {
 					sarahLookTarget = "player";
 				}
 				jayLookTarget = "sarah";
+
+				rand2 = Random.Range (0, talkingAnimations.Length+1);
+				if(rand2 < talkingAnimations.Length){
+					//Debug.Log ("play talking animation");
+					sarahAnimation.clip = talkingAnimations [rand2];
+					sarahAnimation.Play ();
+				}
+
+				if (rand2 != 0) {
+					Invoke ("playJayIdleAnimation", (float)rand2 * 2);
+				} else {
+					Invoke ("playJayIdleAnimation", 3f);
+				}
+
 				yield return new WaitForSeconds (sarahAudioSource.clip.length);
 
 			} else if (currentVH.name == "jay" && jayIndex < jaySpeeches.Length) {
@@ -207,6 +223,20 @@ public class CharacterSpeakingController : MonoBehaviour {
 					jayLookTarget = "player";
 				}
 				sarahLookTarget = "jay";
+
+				rand2 = Random.Range (0, talkingAnimations.Length+1);
+				if(rand2 < talkingAnimations.Length){
+					Debug.Log ("play talking animation");
+					jayAnimation.clip = talkingAnimations [rand2];
+					jayAnimation.Play ();
+				}
+
+				if (rand2 != 0) {
+					Invoke ("playSarahIdleAnimation", (float)rand2 * 2);
+				} else {
+					Invoke ("playSarahIdleAnimation", 3f);
+				}
+
 				yield return new WaitForSeconds (jayAudioSource.clip.length);
 
 			} else {
@@ -215,6 +245,22 @@ public class CharacterSpeakingController : MonoBehaviour {
 		}
 
 
+	}
+
+	void playJayIdleAnimation(){
+		int rand2 = Random.Range (0, idleAnimations.Length+1);
+		if(rand2 < idleAnimations.Length){
+			jayAnimation.clip = idleAnimations [rand2];
+			jayAnimation.Play ();
+		}
+	}
+
+	void playSarahIdleAnimation(){
+		int rand2 = Random.Range (0, idleAnimations.Length+1);
+		if(rand2 < idleAnimations.Length){
+			sarahAnimation.clip = idleAnimations [rand2];
+			sarahAnimation.Play ();
+		}
 	}
 
 	bool canTakeTurn(){
