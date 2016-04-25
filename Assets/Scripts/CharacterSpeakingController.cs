@@ -55,6 +55,15 @@ public class CharacterSpeakingController : MonoBehaviour {
 		sarahHeadLook = sarah.gameObject.GetComponent<HeadLookController> ();
 		jayHeadLook = jay.gameObject.GetComponent<HeadLookController> ();
 
+		for (int i = 0; i < talkingAnimations.Length; i++){
+			sarahAnimation.AddClip (talkingAnimations [i], talkingAnimations [i].name);
+			jayAnimation.AddClip (talkingAnimations [i], talkingAnimations [i].name);
+		}
+		for (int i = 0; i < idleAnimations.Length; i++) {
+			sarahAnimation.AddClip (idleAnimations [i], idleAnimations [i].name);
+			jayAnimation.AddClip (idleAnimations [i], idleAnimations [i].name);
+		}
+
 
 	}
 	
