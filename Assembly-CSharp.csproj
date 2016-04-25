@@ -82,6 +82,7 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
      <Compile Include="Assets\CharacterModels\HeadLookController.cs" />
      <Compile Include="Assets\CharacterSpeakingController2.cs" />
+     <Compile Include="Assets\DoctorSpeechController.cs" />
      <Compile Include="Assets\LoadScene.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
