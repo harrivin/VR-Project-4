@@ -159,7 +159,7 @@ public class CharacterSpeakingController : MonoBehaviour {
 			SceneManager.LoadScene ("stevieHouse2");
 		} else {
 			yield return new WaitForSeconds (6f);
-			SceneManager.LoadScene ("stevieBuildings");
+			SceneManager.LoadScene ("stevieBuilding2");
 		}
 	}
 

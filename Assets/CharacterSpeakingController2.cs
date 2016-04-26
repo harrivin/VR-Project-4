@@ -136,7 +136,7 @@ public class CharacterSpeakingController2 : MonoBehaviour {
 		if (DecisionManager.chooseGroceryStore) {
 			Debug.Log ("moving to next house scene");
 			yield return new WaitForSeconds (10f);
-			SceneManager.LoadScene ("stevieApartment");
+			SceneManager.LoadScene ("apartmenth");
 		} else {
 			yield return new WaitForSeconds (6f);
 			SceneManager.LoadScene ("stevieStore");

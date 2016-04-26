@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class DoctorSpeechController : MonoBehaviour {
 
@@ -127,7 +128,7 @@ public class DoctorSpeechController : MonoBehaviour {
 					maleCharacters [1].transform.position = currentAvatar.transform.position;
 					currentAvatar = maleCharacters [1];
 				}
-				
+				Invoke ("LoadParkScene", 8f);
 			} else {
 				docAudioSource.clip = doctorSpeeches [1];
 				docAudioSource.Play ();
@@ -145,6 +146,7 @@ public class DoctorSpeechController : MonoBehaviour {
 					maleCharacters [2].transform.position = currentAvatar.transform.position;
 					currentAvatar = maleCharacters [2];
 				}
+				Invoke ("LoadParkScene", 8f);
 			}
 		} else {
 			if (DecisionManager.chooseGroceryStore) {
@@ -164,7 +166,7 @@ public class DoctorSpeechController : MonoBehaviour {
 					maleCharacters [2].transform.position = currentAvatar.transform.position;
 					currentAvatar = maleCharacters [2];
 				}
-				
+				Invoke ("LoadParkScene", 8f);
 			} else {
 				docAudioSource.clip = doctorSpeeches [3];
 				docAudioSource.Play ();
@@ -184,6 +186,7 @@ public class DoctorSpeechController : MonoBehaviour {
 					maleCharacters [2].transform.position = currentAvatar.transform.position;
 					currentAvatar = maleCharacters [2];
 				}
+				Invoke ("LoadParkScene", 8f);
 			}
 		}
 	}
@@ -192,4 +195,8 @@ public class DoctorSpeechController : MonoBehaviour {
 			bool isFemale(){
 				return DecisionManager.gender == "female";
 			}
+
+	void LoadParkScene(){
+		SceneManager.LoadScene ("parkh");
+	}
 }
