@@ -10,6 +10,9 @@ public class DoctorSpeechController : MonoBehaviour {
 	AudioSource docAudioSource;
 	FaceFXControllerScript docFFX;
 
+	public GameObject[] maleCharacters;
+	public GameObject[] femaleCharacters;
+
 	public AnimationClip[] talkAnimations;
 
 	GameObject playerHead;
