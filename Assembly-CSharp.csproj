@@ -128,6 +128,7 @@
      <Compile Include="Assets\Scripts\DecisionManager.cs" />
      <Compile Include="Assets\Scripts\DoorInteraction.cs" />
      <Compile Include="Assets\Scripts\Endurance Manager.cs" />
+     <Compile Include="Assets\Scripts\EnduranceManager.cs" />
      <Compile Include="Assets\Scripts\FaceFXControllerScript.cs" />
      <Compile Include="Assets\Scripts\Listener.cs" />
      <Compile Include="Assets\Scripts\MathUtils.cs" />
