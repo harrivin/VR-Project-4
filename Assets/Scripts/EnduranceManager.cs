@@ -5,7 +5,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class EnduranceManager : MonoBehaviour {
 	float stamina=500 , maxStamina=500;
 	float walkSpeed, runSpeed;
-	float staminaf=1;
+	float staminaf = 1,staminar = 1;
 	Rect staminaRect;
 	Texture2D staminaTexture;
 
@@ -47,7 +47,7 @@ public class EnduranceManager : MonoBehaviour {
 				SetWalking (false);
 					}
 			} else if (stamina < maxStamina) {
-				stamina = stamina + staminaf;
+				stamina = stamina + staminar;
 			}
 	}
 
