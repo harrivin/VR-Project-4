@@ -136,6 +136,12 @@
      <Compile Include="Assets\Scripts\SkyboxController.cs" />
      <Compile Include="Assets\Scripts\SplineController.cs" />
      <Compile Include="Assets\Scripts\SplineInterpolator.cs" />
+     <Compile Include="Assets\Scripts\StepsCount.cs" />
+     <Compile Include="Assets\Scripts\StepsCountApartment.cs" />
+     <Compile Include="Assets\Scripts\StepsCountApartment2.cs" />
+     <Compile Include="Assets\Scripts\StepsCountFastFood.cs" />
+     <Compile Include="Assets\Scripts\StepsCountFriendsApartment.cs" />
+     <Compile Include="Assets\Scripts\StepsCountGroceryStore.cs" />
      <Compile Include="Assets\Scripts\WindLoop.cs" />
      <Compile Include="Assets\Scripts\test.cs" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
