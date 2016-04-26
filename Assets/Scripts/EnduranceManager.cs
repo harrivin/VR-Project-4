@@ -15,13 +15,21 @@ public class EnduranceManager : MonoBehaviour {
 	bool isWalking;
 	// Use this for initialization
 	void Start () {
-		fpc = GameObject.FindObjectOfType<FirstPersonController>();
+		fpc = GameObject.FindObjectOfType<FirstPersonController> ();
 		walkSpeed = fpc.m_WalkSpeed;
 		runSpeed = walkSpeed * 2;
-		staminaRect = new Rect (Screen.width/10 , Screen.height/10 , Screen.width/5 , Screen.height/50);
+		staminaRect = new Rect (Screen.width / 10, Screen.height / 10, Screen.width / 5, Screen.height / 50);
 		staminaTexture = new Texture2D (1, 1);
-		staminaTexture.SetPixel(0, 0, Color.white);
-		staminaTexture.Apply();
+		staminaTexture.SetPixel (0, 0, Color.white);
+		staminaTexture.Apply ();
+		if (DecisionManager.predictedFuture == "good") {
+			staminaf = 1;
+		} else if (DecisionManager.predictedFuture == "bad") {
+			staminaf = 10;
+		}
+			else if(DecisionManager.predictedFuture == "ok"){
+				staminaf=5;
+			}
 	}
 
 	void SetWalking(bool isWalking){
