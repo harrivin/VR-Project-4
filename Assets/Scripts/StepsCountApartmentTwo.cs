@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StepsApartment2 : MonoBehaviour {
+public class StepsCountApartmentTwo : MonoBehaviour {
 	int steps=4000;
 	int steps1=0;
 	// Use this for initialization
