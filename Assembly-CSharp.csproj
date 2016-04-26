@@ -138,7 +138,7 @@
      <Compile Include="Assets\Scripts\SplineInterpolator.cs" />
      <Compile Include="Assets\Scripts\StepsCount.cs" />
      <Compile Include="Assets\Scripts\StepsCountApartment.cs" />
-     <Compile Include="Assets\Scripts\StepsCountApartment2.cs" />
+     <Compile Include="Assets\Scripts\StepsCountApartmentTwo.cs" />
      <Compile Include="Assets\Scripts\StepsCountFastFood.cs" />
      <Compile Include="Assets\Scripts\StepsCountFriendsApartment.cs" />
      <Compile Include="Assets\Scripts\StepsCountGroceryStore.cs" />
