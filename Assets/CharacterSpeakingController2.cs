@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CharacterSpeakingController2 : MonoBehaviour {
 
@@ -34,6 +35,10 @@ public class CharacterSpeakingController2 : MonoBehaviour {
 	string sarahLookTarget = "";
 	string jayLookTarget = "";
 
+	public Image x;
+	public Image a;
+	public Text home;
+	public Text goout;
 
 	// Use this for initialization
 	void Start () {
@@ -92,6 +97,10 @@ public class CharacterSpeakingController2 : MonoBehaviour {
 	}
 
 	IEnumerator askForDecision(){
+		x.gameObject.SetActive (true);
+		a.gameObject.SetActive (true);
+		home.gameObject.SetActive (true);
+		goout.gameObject.SetActive (true);
 		if (Input.GetButton ("Fire1")) {
 			sarahAudioSource.clip = sarahChoice;
 			sarahAudioSource.Play ();
@@ -102,6 +111,10 @@ public class CharacterSpeakingController2 : MonoBehaviour {
 			sarahLookTarget = "jay";
 			jayLookTarget = "sarah";
 			decisionMade = true;
+			x.gameObject.SetActive (false);
+			a.gameObject.SetActive (false);
+			home.gameObject.SetActive (false);
+			goout.gameObject.SetActive (false);
 		} else if (Input.GetButton ("Fire2")) {
 			jayAudioSource.clip = jayChoice;
 			jayAudioSource.Play ();
@@ -112,6 +125,10 @@ public class CharacterSpeakingController2 : MonoBehaviour {
 			jayLookTarget = "sarah";
 			sarahLookTarget = "jay";
 			decisionMade = true;
+			x.gameObject.SetActive (false);
+			a.gameObject.SetActive (false);
+			home.gameObject.SetActive (false);
+			goout.gameObject.SetActive (false);
 		}
 	}
 
