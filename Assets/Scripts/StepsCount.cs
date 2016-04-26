@@ -10,34 +10,34 @@ public class StepsCount : MonoBehaviour {
 
 	}
 
-	void OnLevelWasLoaded(int level) {
-		if (level == 0) {
+	void OnLevelWasLoaded(string level) {
+		if (level == "house") {
 			print ("level 0 - intro scene");
 			steps = 0;
 			x = 0;
-		} else if (level == 1) {
+		} else if (level == "fastfood") {
 			print ("level 1 - fastfood ");
 			steps = 1000;
 			x = 1;
-		} else if (level == 2 && x == 1) {
+		} else if (level == "house2" && x == 1) {
 			print ("level 2 - house + fastfood");
 			steps = 2000;
-		} else if (level == 2 && x == 0) {
+		} else if (level == "house2" && x == 0) {
 			print ("level 2 - house + house");
 			steps = 1000;
-		} else if (level == 3 && x == 1) {
+		} else if (level == "store" && x == 1) {
 			print ("level 3 - store ");
 			steps = 6000;
 		}
-		else if (level == 3 && x == 0) {
+		else if (level == "store" && x == 0) {
 			print ("level 3 - store ");
 			steps = 5000;
 		}
-		else if (level == 4 && x == 1) {
+		else if (level == "apartment" && x == 1) {
 			print ("level 4 - grocerystore+apartment ");
 			steps = 10000;
 		}
-		else if (level == 4 && x == 0) {
+		else if (level == "apartment" && x == 0) {
 			print ("level 4 - grocerystore+apartment ");
 			steps = 9000;
 		}
