@@ -2,11 +2,45 @@
 using System.Collections;
 
 public class StepsCount : MonoBehaviour {
-	int steps=0;
-	int steps1=0;
+	public int steps;
+	public int steps1;
+	public int x;
 	// Use this for initialization
 	void Start () {
 
+	}
+
+	void OnLevelWasLoaded(int level) {
+		if (level == 0) {
+			print ("level 0 - intro scene");
+			steps = 0;
+			x = 0;
+		} else if (level == 1) {
+			print ("level 1 - fastfood ");
+			steps = 1000;
+			x = 1;
+		} else if (level == 2 && x == 1) {
+			print ("level 2 - house + fastfood");
+			steps = 2000;
+		} else if (level == 2 && x == 0) {
+			print ("level 2 - house + house");
+			steps = 1000;
+		} else if (level == 3 && x == 1) {
+			print ("level 3 - store ");
+			steps = 6000;
+		}
+		else if (level == 3 && x == 0) {
+			print ("level 3 - store ");
+			steps = 5000;
+		}
+		else if (level == 4 && x == 1) {
+			print ("level 4 - grocerystore+apartment ");
+			steps = 10000;
+		}
+		else if (level == 4 && x == 0) {
+			print ("level 4 - grocerystore+apartment ");
+			steps = 9000;
+		}
 	}
 
 	void OnGUI()
