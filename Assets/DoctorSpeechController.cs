@@ -10,11 +10,16 @@ public class DoctorSpeechController : MonoBehaviour {
 	AudioSource docAudioSource;
 	FaceFXControllerScript docFFX;
 
+	public GameObject[] maleCharacters;
+	public GameObject[] femaleCharacters;
+
 	public AnimationClip[] talkAnimations;
 
 	GameObject playerHead;
 
 	HeadLookController docHeadLook;
+
+	public GameObject currentAvatar; 
 
 	// Use this for initialization
 	void Start () {
@@ -37,8 +42,17 @@ public class DoctorSpeechController : MonoBehaviour {
 		playerHead = GameObject.FindGameObjectWithTag ("playerHead");
 		docHeadLook = this.gameObject.GetComponent<HeadLookController> ();
 
-		Invoke ("playSpeech",0.5f);
+		StartCoroutine ("playSpeech");
 		StartCoroutine ("playAnimation");
+
+
+		if (DecisionManager.gender == "female") {
+			Debug.Log ("is female");
+			currentAvatar.SetActive (false);
+			femaleCharacters [0].SetActive (true);
+			femaleCharacters[0].transform.position = currentAvatar.transform.position;
+			currentAvatar = femaleCharacters [0];
+		}
 	}
 
 	void Update(){
@@ -92,7 +106,8 @@ public class DoctorSpeechController : MonoBehaviour {
 	}
 	
 
-	void playSpeech(){
+	IEnumerator playSpeech(){
+		yield return new WaitForSeconds (0.5f);
 		
 		if (DecisionManager.chooseHome) {
 			if (DecisionManager.chooseGroceryStore) {
@@ -100,12 +115,36 @@ public class DoctorSpeechController : MonoBehaviour {
 				docAudioSource.Play ();
 				docFFX.PlayAnim(animationNames[0], doctorSpeeches [0]);
 				DecisionManager.predictedFuture = "good";
+				yield return new WaitForSeconds (37f);
+				if (isFemale ()) {
+					currentAvatar.SetActive (false);
+					femaleCharacters [1].SetActive (true);
+					femaleCharacters [1].transform.position = currentAvatar.transform.position;
+					currentAvatar = femaleCharacters [1];
+				} else {
+					currentAvatar.SetActive (false);
+					maleCharacters [1].SetActive (true);
+					maleCharacters [1].transform.position = currentAvatar.transform.position;
+					currentAvatar = maleCharacters [1];
+				}
 				
 			} else {
 				docAudioSource.clip = doctorSpeeches [1];
 				docAudioSource.Play ();
 				docFFX.PlayAnim(animationNames[1], doctorSpeeches [1]);
 				DecisionManager.predictedFuture = "ok";
+				yield return new WaitForSeconds (35f);
+				if (isFemale ()) {
+					currentAvatar.SetActive (false);
+					femaleCharacters [2].SetActive (true);
+					femaleCharacters [2].transform.position = currentAvatar.transform.position;
+					currentAvatar = femaleCharacters [2];
+				} else {
+					currentAvatar.SetActive (false);
+					maleCharacters [2].SetActive (true);
+					maleCharacters [2].transform.position = currentAvatar.transform.position;
+					currentAvatar = maleCharacters [2];
+				}
 			}
 		} else {
 			if (DecisionManager.chooseGroceryStore) {
@@ -113,13 +152,44 @@ public class DoctorSpeechController : MonoBehaviour {
 				docAudioSource.Play ();
 				docFFX.PlayAnim(animationNames[2], doctorSpeeches [2]);
 				DecisionManager.predictedFuture = "ok";
+				yield return new WaitForSeconds (33f);
+				if (isFemale ()) {
+					currentAvatar.SetActive (false);
+					femaleCharacters [2].SetActive (true);
+					femaleCharacters [2].transform.position = currentAvatar.transform.position;
+					currentAvatar = femaleCharacters [2];
+				} else {
+					currentAvatar.SetActive (false);
+					maleCharacters [2].SetActive (true);
+					maleCharacters [2].transform.position = currentAvatar.transform.position;
+					currentAvatar = maleCharacters [2];
+				}
 				
 			} else {
 				docAudioSource.clip = doctorSpeeches [3];
 				docAudioSource.Play ();
 				docFFX.PlayAnim(animationNames[3], doctorSpeeches [3]);
 				DecisionManager.predictedFuture = "bad";
+
+				yield return new WaitForSeconds (42f);
+				if (isFemale ()) {
+					currentAvatar.SetActive (false);
+					femaleCharacters [2].SetActive (true);
+					femaleCharacters [2].transform.position = currentAvatar.transform.position;
+					currentAvatar = femaleCharacters [2];
+				} else {
+					currentAvatar.SetActive (false);
+					maleCharacters [2].SetActive (true);
+					Debug.Log (maleCharacters [2].name);
+					maleCharacters [2].transform.position = currentAvatar.transform.position;
+					currentAvatar = maleCharacters [2];
+				}
 			}
 		}
 	}
+
+
+			bool isFemale(){
+				return DecisionManager.gender == "female";
+			}
 }
