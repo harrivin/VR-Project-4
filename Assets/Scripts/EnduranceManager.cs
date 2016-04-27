@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.UI;
 
 public class EnduranceManager : MonoBehaviour {
 	float stamina=500 , maxStamina=500;
@@ -9,6 +10,7 @@ public class EnduranceManager : MonoBehaviour {
 	Rect staminaRect;
 	Texture2D staminaTexture;
 
+	public Slider slider;
 
 	FirstPersonController fpc; 
 
@@ -57,12 +59,14 @@ public class EnduranceManager : MonoBehaviour {
 			} else if (stamina < maxStamina) {
 				stamina = stamina + staminar;
 			}
+
+		slider.value = stamina / maxStamina;
 	}
 
-	void OnGUI(){
-		float ratio = stamina / maxStamina;
-		float rectWidth = ratio * Screen.width / 5;
-		staminaRect.width = rectWidth;
-		GUI.DrawTexture (staminaRect, staminaTexture);
-	}
+//	void OnGUI(){
+//		float ratio = stamina / maxStamina;
+//		float rectWidth = ratio * Screen.width / 5;
+//		staminaRect.width = rectWidth;
+//		GUI.DrawTexture (staminaRect, staminaTexture);
+//	}
 }

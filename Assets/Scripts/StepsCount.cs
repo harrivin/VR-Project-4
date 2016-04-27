@@ -54,7 +54,7 @@ public class StepsCount : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Debug.Log (steps);
-		stepsText.text = "steps taken: " + steps1.ToString ();
+		stepsText.text = "steps taken: " + steps.ToString ();
 		if ((Input.GetAxis ("Horizontal") != 0) || (Input.GetAxis ("Vertical") != 0)) { 
 			steps=steps+1;
 			steps1 = steps / 10;

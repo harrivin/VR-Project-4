@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: c16a8f59dc45e4f31b4794ee70a5f228
+timeCreated: 1461710664
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000400000005000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 9e79cf9dcbf56dcc0fc191584f00cc7a
+  longitude: -74.642664
+  latitude: 39.453766
+  northCorrection: 0.2271129802167593
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 963.53827, y: 110.82668, z: -572.01154}
+      lookAt: {x: -44362.887, y: -5146.3047, z: 26670.113}
+      up: {x: -0.08478748, y: 0.99509513, z: 0.05095904}
+      fov: 4.999834
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: 31.599733, y: 34.139343, z: -42.639065}
+        lookAt: {x: 2.6977162, y: 0.9736303, z: 2.445632}
+        up: {x: -0.1242717, y: 0.8356303, z: 0.53505003}
+        fov: 4.999834
+        aspectRatio: 2.7328386
+        orthoSize: 1
+        isPerspective: 1
+      name: q
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Google Earth Snapshot
+    100002: //RootNode
+    400000: Google Earth Snapshot
+    400002: //RootNode
+    2300000: Google Earth Snapshot
+    2300002: //RootNode
+    3300000: Google Earth Snapshot
+    3300002: //RootNode
+    4300000: Mesh macys
+    4300002: Mesh Google Earth Snapshot
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
