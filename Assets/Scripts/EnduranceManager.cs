@@ -26,11 +26,17 @@ public class EnduranceManager : MonoBehaviour {
 		staminaTexture.Apply ();
 		if (DecisionManager.predictedFuture == "good") {
 			staminaf = 1;
+			print ("good");
+			print (staminaf);
 		} else if (DecisionManager.predictedFuture == "bad") {
 			staminaf = 10;
+			print ("bad");
+			print (staminaf);
 		}
 			else if(DecisionManager.predictedFuture == "ok"){
 				staminaf=5;
+			print ("ok");
+			print (staminaf);
 			}
 	}
 
@@ -42,7 +48,7 @@ public class EnduranceManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log (stamina);
+		//Debug.Log (stamina);
 		if ((Input.GetAxis ("Horizontal") != 0) || (Input.GetAxis ("Vertical") != 0)) { 
 			SetWalking (true);
 		}

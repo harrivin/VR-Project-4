@@ -154,7 +154,7 @@ public class CharacterSpeakingController : MonoBehaviour {
 
 	IEnumerator loadNextScene(){
 		if (DecisionManager.chooseHome) {
-			Debug.Log ("moving to next house scene");
+//			Debug.Log ("moving to next house scene");
 			yield return new WaitForSeconds (10f);
 			SceneManager.LoadScene ("stevieHouse2");
 		} else {
